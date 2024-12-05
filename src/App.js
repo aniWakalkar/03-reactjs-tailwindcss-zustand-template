@@ -1,34 +1,25 @@
 import React from "react";
-import useStore from "./zustand/store";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/About";
+import Counter from "./components/Counter";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
-const App = () => {
-  const { count, increment, decrement } = useStore();
-
+function App() {
   return (
-    <>
-      <div className="h-screen w-screen flex items-center justify-center bg-gray-100">
-        <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center space-y-4">
-          <h1 className="text-2xl font-bold text-gray-800">
-            Count: <span className="text-yellow-500">{count}</span>
-          </h1>
-          <div className="flex space-x-4">
-            <button
-              onClick={increment}
-              className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 focus:ring-2 focus:ring-green-300"
-            >
-              Increment
-            </button>
-            <button
-              onClick={decrement}
-              className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 focus:ring-2 focus:ring-red-300"
-            >
-              Decrement
-            </button>
-          </div>
+    <div className="h-full flex flex-col">
+      <Router>
+        <Navbar />
+        <div className="flex-grow overflow-auto">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/counter" element={<Counter />} />
+            <Route path="/aboutUs" element={<About />} />
+          </Routes>
         </div>
-      </div>
-    </>
+      </Router>
+    </div>
   );
-};
+}
 
 export default App;
