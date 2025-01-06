@@ -1,6 +1,6 @@
 {
-  "homepage": "https://aniWakalkar.github.io/reactjs-tailwindcss-zustand-template",
-  "name": "reactjs-tailwindcss-zustand-template",
+  "homepage": "https://aniWakalkar.github.io/03-reactjs-tailwindcss-zustand-template",
+  "name": "03-reactjs-tailwindcss-zustand-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
