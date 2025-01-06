@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reactjs-tailwindcss-zustand-template/static/css/main.230cbdb5.css",
-    "main.js": "/reactjs-tailwindcss-zustand-template/static/js/main.0cca9083.js",
-    "static/js/453.deeeaed9.chunk.js": "/reactjs-tailwindcss-zustand-template/static/js/453.deeeaed9.chunk.js",
-    "index.html": "/reactjs-tailwindcss-zustand-template/index.html",
-    "main.230cbdb5.css.map": "/reactjs-tailwindcss-zustand-template/static/css/main.230cbdb5.css.map",
-    "main.0cca9083.js.map": "/reactjs-tailwindcss-zustand-template/static/js/main.0cca9083.js.map",
-    "453.deeeaed9.chunk.js.map": "/reactjs-tailwindcss-zustand-template/static/js/453.deeeaed9.chunk.js.map"
+    "main.css": "/03-reactjs-tailwindcss-zustand-template/static/css/main.230cbdb5.css",
+    "main.js": "/03-reactjs-tailwindcss-zustand-template/static/js/main.ce6951bf.js",
+    "static/js/453.ac19a232.chunk.js": "/03-reactjs-tailwindcss-zustand-template/static/js/453.ac19a232.chunk.js",
+    "index.html": "/03-reactjs-tailwindcss-zustand-template/index.html",
+    "main.230cbdb5.css.map": "/03-reactjs-tailwindcss-zustand-template/static/css/main.230cbdb5.css.map",
+    "main.ce6951bf.js.map": "/03-reactjs-tailwindcss-zustand-template/static/js/main.ce6951bf.js.map",
+    "453.ac19a232.chunk.js.map": "/03-reactjs-tailwindcss-zustand-template/static/js/453.ac19a232.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.230cbdb5.css",
-    "static/js/main.0cca9083.js"
+    "static/js/main.ce6951bf.js"
   ]
 }
